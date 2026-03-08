@@ -16,7 +16,7 @@ export const menuItems = [
     },
      {
         id : 4,
-        name : 'Project',
+        name : 'Projects',
         link : '#'
     },
     {

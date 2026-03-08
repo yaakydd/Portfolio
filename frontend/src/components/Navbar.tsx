@@ -1,15 +1,20 @@
 // Navbar Component
+import { menuItems } from "../utils/menuItems";
+
+
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-4 bg-gray-100">
-      <div className="">iCr8</div>
-      <ul className="flex space-x-4">
-        <li className="flex text-sm">Home</li>
-        <li className="flex text-sm">About</li>
-        <li className="flex text-sm">Skills</li>
-        <li className="flex text-sm">Projects</li>
-        <li className="flex text-sm">Contact</li>
-      </ul>
+    <nav className="flex items-center justify-between ml-13 mt-7 p-3 bg-gray-dark rounded-3xl w-[1153.78px] h-[52]">
+     <div className="flex items-center ">
+        <ul className="flex justify-around gap-5">
+        {menuItems.map(menu =>
+        <li key={menu.id}>
+          <a href="{menu.link}">{menu.name}</a>
+        </li>
+        )}
+        </ul>
+     </div>
+
       <button className="flex text-sm bg-gray-800 text-white px-4 py-2 rounded-md ml-4">Resume</button>
     </nav>
   );

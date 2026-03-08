@@ -16,7 +16,14 @@ export default {
       colors: {
         primary: '#5483B3',
         secondary: '#3B82F6',
-        sec: '#052659'
+        sec: '#052659',
+        gray: {
+        darkest: '#171717',
+        dark: '#344054',
+        DEFAULT: '#c0ccda',
+        light: '#e0e6ed',
+        lightest: '#f9fafc',
+      }
       }
     }
   }
