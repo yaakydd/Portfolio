@@ -4,7 +4,7 @@ const LandingPage = () => {
     return (
         <>
         <Navbar />
-<div className="relative flex flex-col items-center justify-end w-full h-125 overflow-hidden">
+<div className="relative flex flex-col items-center bg-gray-950 justify-end w-full h-125 overflow-hidden">
       
       {/* 1. The Blue Semi-Circle */}
       {/* We use w-[600px] and h-[300px] with rounded-t-full to create the curve */}
