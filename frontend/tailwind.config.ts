@@ -1,13 +1,11 @@
 import type { Config } from "tailwindcss"
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-
-  
-
   theme: {
     extend: {
       screens: {
@@ -25,8 +23,10 @@ export default {
           lightest: "#f9fafc",
         },
       },
+      fontFamily: {
+        inter: ['Inter', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
-
   plugins: [],
 } satisfies Config
