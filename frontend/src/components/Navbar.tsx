@@ -1,5 +1,6 @@
 // Navbar Component
 import { menuItems } from "../utils/menuItems";
+import { Download } from "lucide-react";
 
 
 const Navbar = () => {
@@ -14,7 +15,14 @@ const Navbar = () => {
         )}
         </ul>
      </div>
-      <button className="text-sm bg-[#5483b3] text-white px-4 py-2 rounded-3xl h-10 font-bold ">Download CV</button>
+    <button className="flex items-center gap-2 text-sm bg-[#5483b3] text-white px-6 py-2 rounded-3xl h-11 font-bold font-inter hover:bg-[#3d6a96] shadow-sm ">
+    <span>Download CV</span>
+    <Download 
+      size={18} 
+      strokeWidth={2.5} 
+      className="shrink-0" 
+    />
+    </button>
     </nav>
     
   );
