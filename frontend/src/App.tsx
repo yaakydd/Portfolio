@@ -1,10 +1,10 @@
-import LandingPage from "./pages/LandingPage"
+import BlogPost from "./pages/BlogPost"
 
 export default function App() {
 
   return (
     <>
-      <LandingPage />
+      <BlogPost />
     </>
   )
 }
