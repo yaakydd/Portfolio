@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import ItemsTray from "../components/ItemsTray"
 
 const BlogPost = () => {
     return (
@@ -10,6 +11,7 @@ const BlogPost = () => {
             <p className="text-center  text-md font-light text-[#64748b]">Explore the intersection of data science, machine learning and modern <br />
             technology. Dive into my latest thoughts and discoveries. </p>
         </div>
+        <ItemsTray />
         </>
 
     )
