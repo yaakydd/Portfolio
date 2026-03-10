@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between  ml-23 mt-5 p-3 bg-gray-900 rounded-4xl w-288.5 h-13">
+    <nav className="flex items-center justify-between  ml-23 mt-3 p-3 bg-gray-900 rounded-4xl w-288.5 h-13">
      <div className="flex items-center ">
         <ul className="flex justify-around gap-5 text-sm text-white">
         {menuItems.map(menu =>
