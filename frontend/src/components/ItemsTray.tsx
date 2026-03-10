@@ -1,17 +1,27 @@
-const ItemsTray = () => {
+type Item = {
+  name: string;
+  link: string;
+};
 
-    return (
-        <div className="py-2">
-            <ul className="flex items-center justify-center gap-7 font-jakarta text-sm hover:text-white hover:bg-amber-600 rounded-2xl">
-                <li><a href="#">All posts</a></li>
-                <li><a href="#">Data Science</a></li>
-                <li><a href="#">Machine Learning</a></li>
-                <li><a href="#">Modern Technology</a></li>
-            </ul>
-        </div>
+type ItemsTrayProps = {
+  items: Item[];
+};
 
-    )
+const ItemsTray = ({ items }: ItemsTrayProps) => {
+  return (
+    <div className="py-2">
+      <ul className="flex items-center justify-center gap-7 font-jakarta text-sm">
+        {items.map((item, index) => (
+          <li
+            key={index}
+            className="hover:text-white hover:bg-amber-600 rounded-2xl px-3 py-1"
+          >
+            <a href={item.link}>{item.name}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
-}
-
-export default ItemsTray
+export default ItemsTray;
