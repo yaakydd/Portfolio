@@ -14,7 +14,7 @@ const ItemsTray = ({ items }: ItemsTrayProps) => {
         {items.map((item, index) => (
           <li
             key={index}
-            className="hover:text-white hover:bg-amber-600 rounded-2xl px-3 py-1"
+            className="hover:text-white font-jakarta text-[#475569] hover:bg-[#3b82f6] rounded-4xl px-4 py-2"
           >
             <a href={item.link}>{item.name}</a>
           </li>
