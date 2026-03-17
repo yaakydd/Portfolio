@@ -1,10 +1,10 @@
-import BlogPost from "./pages/BlogPost"
+import Footer from "./components/Footer";
 
 export default function App() {
 
   return (
     <>
-      <BlogPost />
+      <Footer />
     </>
   )
 }
