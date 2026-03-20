@@ -1,8 +1,9 @@
 
 const Footer = () => {
     return(
-        <footer className="bg-gray-800 text-white py-4 text-center">
-            <p className="text-sm">&copy; 2024 Your Name. All rights reserved.</p>
+        <footer className="bg-[#272727] rounded-tl-[22px] rounded-tr-[22px] text-white py-4 text-center">
+            
+            <hr className="border-gray-600" />
             <div className="mt-2">
                 <a href="#" className="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
                 <a href="#" className="text-gray-400 hover:text-white mx-2">Terms of Service</a>
