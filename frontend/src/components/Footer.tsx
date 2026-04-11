@@ -14,6 +14,7 @@ const Footer = () => {
                     <span className="">Fun Fact</span>
                     Data tells a story, I help it speak clearly
                     </p>
+
                 </div>
                 <div>
                     <h1>YAA</h1>
