@@ -8,20 +8,21 @@ const Footer = () => {
             </div>
             <hr className="border-white w-310 ml-10" />
             <div className="mt-2 py-10 flex items-center justify-center gap-25">
-                <div className="line-height-">
-                    <h1 className="text-left text-[#3B82F6]"><i>Great Things Begin Very Little</i></h1>
-                    <p className="font-bold">Have an awesome project idea, let's discuss. <br /> 
-                    <span className="text-yellow-500 mr-2 font-normal">Fun Fact:</span> 
-                    Data tells a story, I help it speak clearly
+                <div className="leading-8">
+                    <h1 className="text-left font-bold text-[#5483B3]"><i className="text-[17px]">Great Things Begin Very Little</i></h1>
+                    <p className="font-semibold text-[17px]">Have an awesome project idea, let's discuss. <br /> 
+                    <span className="text-purple-500 mr-2 font-normal text-[17px]">"Fun Fact" : Data tells a story, I help it speak clearly</span> 
+                    
                     </p>
 
                 </div>
-                <div>
-                    <h1>YAA</h1>
-                    <p>Have an awesome project idea, let's discuss</p>
+                <div className="text-left leading-8">
+                    <h1 className="text-[17px] text-[#5483B3] font-bold">Contact</h1>
+                    <p>0546 345 107</p>
+                    <a href="mailto:antwiyaa17@gmail.com">antwiyaa17@gmail.com</a>
                 </div>
                 <div>
-                    <h1>YAA</h1>
+                    <h1></h1>
                     <p>Have an awesome project idea, let's discuss</p>
                 </div>
             </div>
