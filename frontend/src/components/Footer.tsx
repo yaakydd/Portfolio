@@ -21,7 +21,8 @@ const Footer = () => {
                 </div>
                 <div className="block text-left mb-11 ">
                     <h1 className="text-[#5483B3] text-[20px] font-bold  ">Get the latest information</h1>
-                    <input type="email" placeholder="Email Address"  className="mt-3 p-4 outline-0 rounded-tl-[12.44px] text-black border-none bg-white border-white rounded-bl-[12.44px] h-10"  /><SendHorizonal/>
+                    <input type="email" placeholder="Email Address"  className="mt-3 p-4 outline-0 rounded-tl-[12.44px] text-black border-none bg-white border-white rounded-bl-[12.44px] w-60 h-10"  />
+                    <button className="bg-[#5483B3]"><SendHorizonal/></button>
                 </div>
             </div>
             <hr className="border-white w-290 ml-21 "  />
