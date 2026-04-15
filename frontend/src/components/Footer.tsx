@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react"
+import { ArrowUpRight, SendHorizonal } from "lucide-react"
 const Footer = () => {
     return(
         <footer className="bg-[#272727] rounded-tl-[30px] rounded-tr-[30px] w-330 ml-6 h-100 text-white py-2 text-center">
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="block text-left mb-11 ">
                     <h1 className="text-[#5483B3] text-[20px] font-bold  ">Get the latest information</h1>
-                    <input type="email" placeholder="Email Address"  className="mt-3 rounded-tl-[12.44px] text-black  bg-white border-white rounded-bl-[12.44px] h-10" /> <hr />
+                    <input type="email" placeholder="Email Address"  className="mt-3 p-4 outline-0 rounded-tl-[12.44px] text-black border-none bg-white border-white rounded-bl-[12.44px] h-10"  /><SendHorizonal/>
                 </div>
             </div>
             <hr className="border-white w-290 ml-21 "  />
