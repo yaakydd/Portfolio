@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="text-left leading-10">
                     <h1 className="text-[20px] text-[#5483B3] font-bold">Contact</h1>
                     <p>0546 345 107</p>
-                    <a href="mailto:antwiyaa17@gmail.com">antwiyaa17@gmail.com</a>
+                    <a href="mailto:antwiyaa17@gmail.com" className="cursor-pointer">antwiyaa17@gmail.com</a>
                 </div>
                 <div className="block text-left mb-11 ">
                     <h1 className="text-[#5483B3] text-[20px] font-bold  ">Get the latest information</h1>
