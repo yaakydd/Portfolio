@@ -1,13 +1,13 @@
 import { ArrowUpRight, SendHorizonal,Copyright } from "lucide-react"
 const Footer = () => {
     return(
-        <footer className="bg-[#272727] rounded-tl-[30px] rounded-tr-[30px] w-330 ml-6 h-100 text-white py-2 text-center">
-            <div className="flex justify-between py-4">
-                <h1 className="text-5xl font-bold text-left ml-10 py-3 ">Let's <span className="text-[#3B82F6]">Connect</span></h1>
+        <footer className="bg-[#272727] rounded-tl-[30px] rounded-tr-[30px] w-auto h-100 text-white py-4 text-center">
+            <div className="flex justify-between py-3">
+                <h1 className="text-5xl font-bold text-left ml-10 py-4 ">Let's <span className="text-[#3B82F6]">Connect</span></h1>
                 <button className="bg-[#5483B3] mr-16 w-33 h-10 mt-7 flex justify-center items-center text-lg rounded-3xl cursor-pointer">Hire Me<ArrowUpRight size={20} strokeWidth={1.5} className="ml-1" /></button>
             </div>
             <hr className="border-white w-290 ml-21" />
-            <div className="mt-2 py-8 flex items-center justify-center gap-27">
+            <div className="mt-2 py-6 flex items-center justify-center gap-27">
                 <div className="leading-8 inline-block">
                     <h1 className="text-left font-bold text-[#5483B3]"><i className="text-[17px]">Great Things Begin Very Little</i></h1>
                     <p className="font-semibold text-[17px]">Have an awesome project idea, let's discuss. <br /> 
@@ -29,9 +29,8 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="border-white w-290 ml-21 "  />
-            <div className="">
-                <p>Copyright<Copyright className="" />
-                2026Yaa'sPortfolio.AllRightsReserved</p>
+            <div className="inline-block  py-0">
+                <p className="flex align-middle mt-7 font-light">Copyright <Copyright className="ml-0.5 mr-0.5 font-light" /> 2026 Yaa'sPortfolio. All Rights Reserved</p>
             </div>
         </footer>
     )
