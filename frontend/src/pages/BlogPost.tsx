@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import Navbar from "../components/Navbar";
 import ItemsTray from "../components/ItemsTray";
 import CardGrid from "../components/CardGrid";
+import Footer from "../components/Footer";
 
 const blogItems = [
   { name: "All Posts", link: "#" },
@@ -11,7 +12,7 @@ const blogItems = [
 ];
 
 const blogData = [
-  { id: 1, title: "Weather App", subtitle: "Data Science", image: "/weather.jpg", category: "Data Science" },
+  { id: 1, title: "Weather App", subtitle: "Data World", image: "/weather.jpg", category: "Data Science" },
   { id: 2, title: "E-commerce Bot", subtitle: "Machine Learning", image: "/bot.jpg", category: "Machine Learning" },
   { id: 3, title: "New Tech", subtitle: "Tech News", image: "/tech.jpg", category: "Tech News" },
 ];
@@ -57,6 +58,8 @@ const BlogPost = () => {
 
             {/* Pass the filtered data instead of the raw blogData */}
             <CardGrid data={filteredData} />
+
+            <Footer />
         </>
     );
 };

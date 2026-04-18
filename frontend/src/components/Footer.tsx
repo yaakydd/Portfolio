@@ -1,7 +1,7 @@
 import { ArrowUpRight, SendHorizonal,Copyright } from "lucide-react"
 const Footer = () => {
     return(
-        <footer className="bg-[#272727] rounded-tl-[30px] rounded-tr-[30px] w-auto h-100 text-white py-4 text-center">
+        <footer className="bg-[#272727] rounded-tl-[30px] mt-20 rounded-tr-[30px] w-auto h-100 text-white py-4 text-center">
             <div className="flex justify-between py-3">
                 <h1 className="text-5xl font-bold text-left ml-10 py-4 ">Let's <span className="text-[#3B82F6]">Connect</span></h1>
                 <button className="bg-[#5483B3] mr-16 w-33 h-10 mt-7 flex justify-center items-center text-lg rounded-3xl cursor-pointer">Hire Me<ArrowUpRight size={20} strokeWidth={1.5} className="ml-1" /></button>
