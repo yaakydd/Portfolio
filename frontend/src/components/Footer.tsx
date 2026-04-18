@@ -1,4 +1,4 @@
-import { ArrowUpRight, SendHorizonal } from "lucide-react"
+import { ArrowUpRight, SendHorizonal,Copyright } from "lucide-react"
 const Footer = () => {
     return(
         <footer className="bg-[#272727] rounded-tl-[30px] rounded-tr-[30px] w-330 ml-6 h-100 text-white py-2 text-center">
@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="leading-8 inline-block">
                     <h1 className="text-left font-bold text-[#5483B3]"><i className="text-[17px]">Great Things Begin Very Little</i></h1>
                     <p className="font-semibold text-[17px]">Have an awesome project idea, let's discuss. <br /> 
-                    <span className="text-purple-500 mr-2 font-normal text-[17px]">"Fun Fact" : Data tells a story, I help it speak clearly</span> 
+                    <span className="text-[#03d1ec] mr-2 font-normal text-[17px]">"Fun Fact" : Data tells a story, I help it speak clearly</span> 
                     </p>
                 </div>
                 <div className="text-left leading-10">
@@ -29,6 +29,10 @@ const Footer = () => {
                 </div>
             </div>
             <hr className="border-white w-290 ml-21 "  />
+            <div className="">
+                <p>Copyright<Copyright className="" />
+                2026Yaa'sPortfolio.AllRightsReserved</p>
+            </div>
         </footer>
     )
 }
