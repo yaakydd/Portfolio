@@ -9,7 +9,7 @@ const Footer = () => {
             <hr className="border-white w-290 ml-21" />
             <div className="mt-2 py-6 flex items-center justify-center gap-27">
                 <div className="leading-8 inline-block">
-                    <h1 className="text-left font-bold text-[#5483B3]"><i className="text-[17px]">Great Things Begin Very Little</i></h1>
+                    <h1 className="text-left font-extrabold "><i className="text-[17px]">Great Things Begin Very Little</i></h1>
                     <p className="font-semibold text-[17px]">Have an awesome project idea, let's discuss. <br /> 
                     <span className="text-[#3BE6FC] mr-2 font-normal text-[17px]">"Fun Fact" : Data tells a story, I help it speak clearly</span> 
                     </p>

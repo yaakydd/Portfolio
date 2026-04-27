@@ -47,7 +47,7 @@ const BlogPost = () => {
             </span>
             ))}
             </h1>
-            <p className="text-center text-md font-light text-[#64748b]">Explore the intersection of data science, machine learning and modern <br />
+            <p className="text-center text-md font-light text-[#64748b]">Explore the intersection from the world of data, machine learning and modern <br />
             technology. Dive into my latest thoughts and discoveries. </p>
         </div>
             <ItemsTray 
