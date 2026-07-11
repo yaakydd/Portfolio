@@ -1,10 +1,11 @@
-import BlogPost from "./pages/BlogPost";
+// import BlogPost from "./pages/BlogPost";
+import ProjectsPage from "./pages/ProjectsPage"
 
 export default function App() {
 
   return (
     <>
-      <BlogPost />
+      <ProjectsPage />
     </>
   )
 }
